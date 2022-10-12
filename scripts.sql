@@ -14,3 +14,8 @@ create table pedido (
     valor_total decimal(10,2)
 )ENGINE=INNODB    
     
+insert into cliente (nome, email, data_nascimento)
+values ('Joao Silva', 'joao@gmail.com', '1990-10-10');
+
+insert into pedido (data_criacao, data_entrega, valor_frete, valor_total)
+values ('2022-10-10', '2022-11-11', 30.25, 80.56)
